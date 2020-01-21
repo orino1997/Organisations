@@ -6,6 +6,7 @@ import com.google.gson.stream.JsonReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.lang.reflect.Type;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -57,7 +58,11 @@ public class Main {
                 .registerTypeAdapter(LocalDate.class, new LocalDateDeserializer())
                 .create();
         List<Organization> orgsList = gson.fromJson(reader, collectionType);
-
+        try {
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         //задание 1
             orgsList.forEach((organization) -> {
             LocalDate date = organization.egrul_date;
