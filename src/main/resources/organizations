@@ -1,0 +1,795 @@
+[
+  {
+    "id": 1,
+    "code": "IRNP",
+    "name_full": "Акционерное общество \"Иркутскпродукт\"",
+    "name_short": "АО \"Иркутскпродукт\"",
+    "inn": "38001230798",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "1323800208080",
+    "egrul_date": "2000-09-05",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Семенов Василий Игнатьевич",
+    "address": "664901, г. Иркутск, ул. Ленина, д.15",
+    "phone": "(3952) 32-12-11",
+    "e_mail": "inp@knp.ros.ru",
+    "www": "http:\/\/www.inpk.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10000101,
+        "code": "RU0005702712",
+        "name_full": "Акции привилегированные типа А АО \"Иркутскпродукт\"",
+        "cfi": "ETXXAR",
+        "date_to": "2015-10-19",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10000102,
+        "code": "RU0005118323",
+        "name_full": "Облигации  \"Иркутскпродукт\"",
+        "cfi": "EZXXAR",
+        "date_to": "2020-10-23",
+        "state_reg_date": "2002-11-08",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 2,
+    "code": "AUZP",
+    "name_full": "Акционерное общество \"Автозакпродукт\"",
+    "name_short": "АО \"Автозакпродукт\"",
+    "inn": "38001231111",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "1323800802081",
+    "egrul_date": "2015-11-25",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Васильев Максим Христианович",
+    "address": "264921, г. Алтайск, ул. Ленина, д.115",
+    "phone": "(3952) 09-11-21",
+    "e_mail": "az@azkp.ros.ru",
+    "www": "http:\/\/www.azkp.ru\/",
+    "is_resident": false,
+    "securities": [
+      {
+        "id": 10000201,
+        "code": "RU0005702711",
+        "name_full": "Акции привилегированные типа А АО \"Автозакпродукт\"",
+        "cfi": "ARTQAR",
+        "date_to": "2011-02-09",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10000202,
+        "code": "RU0005702722",
+        "name_full": "Облигации  \"Автозакпродукт\"",
+        "cfi": "PLEXAR",
+        "date_to": "2002-01-01",
+        "state_reg_date": "2002-09-01",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 2,
+          "code": "EUR",
+          "name_short": "евр.",
+          "name_full": "Евро"
+        }
+      },
+      {
+        "id": 10000203,
+        "code": "RU0005118333",
+        "name_full": "Облигации  \"Автозакпродукт\"",
+        "cfi": "PLEXAR",
+        "date_to": "2022-11-28",
+        "state_reg_date": "2002-11-08",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 3,
+    "code": "ALPP",
+    "name_full": "Общество с ограниченной ответственностью \"Алмашптицепродукт\"",
+    "name_short": "ООО \"Алмашптицепродукт\"",
+    "inn": "30901140798",
+    "company_type": {
+      "id": 12,
+      "name_short": "ООО",
+      "name_full": "Общество с ограниченной ответственностью"
+    },
+    "ogrn": "1323890201212",
+    "egrul_date": "1992-02-19",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Кременчугский Иван Евстратьевич",
+    "address": "692987, г. Василеостровск, ул. Ильича, д.21",
+    "phone": "(3820) 32-12-01",
+    "e_mail": "alm@alpp.ru",
+    "www": "http:\/\/www.alpp.ru\/",
+    "is_resident": false,
+    "securities": [
+    ]
+  },
+  {
+    "id": 4,
+    "code": "NGSV",
+    "name_full": "Паевое акционерное общество \"Нефтегазосталевар\"",
+    "name_short": "ПАО \"Нефтегазосталевар\"",
+    "inn": "38000000719",
+    "company_type": {
+      "id": 17,
+      "name_short": "ПАО",
+      "name_full": "Паевое акционерное общество"
+    },
+    "ogrn": "1323800201234",
+    "egrul_date": "1980-12-30",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Красовичникова Алла Николевна",
+    "address": "664901, г. Волоколамск, ул. Яковлева, д.9",
+    "phone": "(3872) 90-01-28",
+    "e_mail": "ng@ngsv.ru",
+    "www": "http:\/\/www.ngsv.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10000401,
+        "code": "RU1005702700",
+        "name_full": "Акции привилегированные типа А АО \"Нефтегазосталевар\"",
+        "cfi": "ETXRER",
+        "date_to": "2029-10-19",
+        "state_reg_date": "2000-10-05",
+        "state": {
+          "id": 2,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10000402,
+        "code": "RU1005118101",
+        "name_full": "Облигации  \"Нефтегазосталевар\"",
+        "cfi": "EZXRER",
+        "date_to": "2031-10-23",
+        "state_reg_date": "2002-11-18",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 5,
+    "code": "SVSZ",
+    "name_full": "Акционерное общество \"Святовасильевскосвечнойзавод\"",
+    "name_short": "АО \"Святовасильевскосвечнойзавод\"",
+    "inn": "38666230999",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "1323666208080",
+    "egrul_date": "1918-02-09",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Пресвятой Отец Сергий",
+    "address": "777777, г. Святоземск, ул. Божественная, д.1",
+    "phone": "(3777) 77-77-71",
+    "e_mail": "свят@светсвеч.рф",
+    "www": "http:\/\/www.светсвеч.рф\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10000501,
+        "code": "RU1115702712",
+        "name_full": "Акции привилегированные типа А АО \"Святовасильевскосвечнойзавод\"",
+        "cfi": "EFXXAR",
+        "date_to": "2015-10-19",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10000502,
+        "code": "RU0005190909",
+        "name_full": "Облигации  \"Святовасильевскосвечнойзавод\"",
+        "cfi": "EFXXAR",
+        "date_to": "2000-02-13",
+        "state_reg_date": "1992-12-18",
+        "state": {
+          "id": 1,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      },
+      {
+        "id": 10000503,
+        "code": "RU0005100323",
+        "name_full": "Облигации  \"Святовасильевскосвечнойзавод\"",
+        "cfi": "EZXXAR",
+        "date_to": "2025-12-19",
+        "state_reg_date": "2001-07-07",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 6,
+    "code": "IAOO",
+    "name_full": "Акционерное общество \"Ярославльодеждаобувь\"",
+    "name_short": "АО \"Ярославльодеждаобувь\"",
+    "inn": "38209123798",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "1902411208080",
+    "egrul_date": "1999-09-29",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Калистратова Наталья Петровка",
+    "address": "664121, г. Ярославль, ул. Шелковая, д.2",
+    "phone": "(3981) 90-14-10",
+    "e_mail": "jaroo@gmail.com",
+    "www": "http:\/\/www.jaroo.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10000601,
+        "code": "RU0225702009",
+        "name_full": "Облигации \"Ярославльодеждаобувь\"",
+        "cfi": "ADTGAR",
+        "date_to": "2018-02-16",
+        "state_reg_date": "2000-02-14",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "code": "LVPR",
+    "name_full": "Общество с ограниченной ответственностью \"Ликерводкапромыш\"",
+    "name_short": "ООО \"Ликерводкапромыш\"",
+    "inn": "38000000000",
+    "company_type": {
+      "id": 12,
+      "name_short": "ООО",
+      "name_full": "Общество с ограниченной ответственностью"
+    },
+    "ogrn": "1323800208080",
+    "egrul_date": "2001-10-12",
+    "country": {
+      "id": 100,
+      "code": "UA",
+      "name": "УКРАИНА"
+    },
+    "fio_head": "Скоробогатько Тарас Богданович",
+    "address": "290211, г. Запорожье, ул. Шмайко, д.12",
+    "phone": "(3809) 12-02-14",
+    "e_mail": "lvpr@yandex.ua",
+    "www": "http:\/\/www.lvpr.ua\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10000701,
+        "code": "UA0005483057",
+        "name_full": "Акции привилегированные типа А АО \"Ликерводкапромыш\"",
+        "cfi": "ETSXAR",
+        "date_to": "2012-12-21",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 7,
+          "code": "UAH",
+          "name_short": "грн.",
+          "name_full": "Гривны"
+        }
+      },
+      {
+        "id": 10000702,
+        "code": "UA0301918323",
+        "name_full": "Облигации  \"Ликерводкапромыш\"",
+        "cfi": "EZSXAR",
+        "date_to": "2020-10-23",
+        "state_reg_date": "2012-11-08",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 7,
+          "code": "UAH",
+          "name_short": "грн.",
+          "name_full": "Гривны"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 8,
+    "code": "JAPR",
+    "name_full": "Акционерное общество \"Якутскпродукт\"",
+    "name_short": "АО \"Якутскпродукт\"",
+    "inn": "38009876598",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "1010101208080",
+    "egrul_date": "2010-04-17",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Вострухин Игнат Семенович",
+    "address": "602941, г. Якутск, ул. Ленина, д.15",
+    "phone": "(3912) 90-10-10",
+    "e_mail": "japr@japr.ru",
+    "www": "http:\/\/www.japr.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10000801,
+        "code": "RU0005702123",
+        "name_full": "Акции привилегированные типа А АО \"Якутскпродукт\"",
+        "cfi": "ATWXAR",
+        "date_to": "2015-10-19",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10000802,
+        "code": "RU0005701123",
+        "name_full": "Акции привилегированные типа А АО \"Якутскпродукт\"",
+        "cfi": "ATWXAR",
+        "date_to": "2025-12-19",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10000803,
+        "code": "RU0005110123",
+        "name_full": "Облигации  \"Якутскпродукт\"",
+        "cfi": "ATWXAR",
+        "date_to": "2020-10-23",
+        "state_reg_date": "2002-11-08",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 9,
+    "code": "SSCM",
+    "name_full": "Акционерное общество \"Свиньясалокомбинат\"",
+    "name_short": "АО \"Свиньясалокомбинат\"",
+    "inn": "48975230798",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "8461800208080",
+    "egrul_date": "1997-03-28",
+    "country": {
+      "id": 100,
+      "code": "UA",
+      "name": "УКРАИНА"
+    },
+    "fio_head": "Яковенко Руслан Константинович",
+    "address": "624901, г. Днепр, ул. Шварковская, д.1",
+    "phone": "(3966) 87-91-39",
+    "e_mail": "inp@sscm.ua",
+    "www": "http:\/\/www.sscm.ua\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10000801,
+        "code": "UA0005702712",
+        "name_full": "Акции привилегированные типа А АО \"Свиньясалокомбинат\"",
+        "cfi": "ETTPPR",
+        "date_to": "2001-06-06",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 7,
+          "code": "UAH",
+          "name_short": "руб.",
+          "name_full": "Гривны"
+        }
+      },
+      {
+        "id": 10000101,
+        "code": "UA0005118323",
+        "name_full": "Облигации  \"Свиньясалокомбинат\"",
+        "cfi": "ETTPPR",
+        "date_to": "2030-11-25",
+        "state_reg_date": "2002-11-08",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 7,
+          "code": "UAH",
+          "name_short": "грн.",
+          "name_full": "Гривны"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 10,
+    "code": "GSMO",
+    "name_full": "Акционерное общество \"Госстрахморорг\"",
+    "name_short": "АО \"Госстрахморорг\"",
+    "inn": "28101230798",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "4323888208080",
+    "egrul_date": "2007-01-07",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Дубцов Александр Алексеевич",
+    "address": "299901, г. Москва, ул. Красная, д.5",
+    "phone": "(3985) 05-05-15",
+    "e_mail": "gsmo@mail.ru",
+    "www": "http:\/\/www.gsmo.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10001001,
+        "code": "RU0201702712",
+        "name_full": "Акции привилегированные типа А АО \"Госстрахморорг\"",
+        "cfi": "ETXXAR",
+        "date_to": "2014-06-19",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10001002,
+        "code": "RU0201118323",
+        "name_full": "Облигации  \"Госстрахморорг\"",
+        "cfi": "EZXXAR",
+        "date_to": "2022-05-25",
+        "state_reg_date": "2002-11-08",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 11,
+    "code": "CAZM",
+    "name_full": "Общество с ограниченной ответственностью \"Кредитальянсзайм\"",
+    "name_short": "ООО \"Кредитальянсзайм\"",
+    "inn": "11892230798",
+    "company_type": {
+      "id": 16,
+      "name_short": "ООО",
+      "name_full": "Общество с ограниченной ответственностью"
+    },
+    "ogrn": "1323822507010",
+    "egrul_date": "1999-05-20",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Никосов Захар Александрович",
+    "address": "261961, г. Владивосток, ул. Московская, д.29",
+    "phone": "(3900) 20-84-16",
+    "e_mail": "cazm@mail.ru",
+    "www": "http:\/\/www.cazm.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10001101,
+        "code": "RU0225118223",
+        "name_full": "Облигации  \"Кредитальянсзайм\"",
+        "cfi": "OPKLAR",
+        "date_to": "2028-02-22",
+        "state_reg_date": "2001-10-01",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 12,
+    "code": "BOST",
+    "name_full": "Акционерное общество \"Байкалозерстрой\"",
+    "name_short": "АО \"Байкалозерстрой\"",
+    "inn": "38881902598",
+    "company_type": {
+      "id": 16,
+      "name_short": "АО",
+      "name_full": "Акционерное общество"
+    },
+    "ogrn": "1323008280801",
+    "egrul_date": "2008-11-12",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Зверев Евгений Сергеевич",
+    "address": "892901, г. Алтайск, ул. Единственная, д.91",
+    "phone": "(3902) 58-01-09",
+    "e_mail": "b@bost.ru",
+    "www": "http:\/\/www.bost.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10001201,
+        "code": "RU8905702716",
+        "name_full": "Акции привилегированные типа А АО \"Байкалозерстрой\"",
+        "cfi": "ETXXAR",
+        "date_to": "2012-05-20",
+        "state_reg_date": "2001-12-04",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      },
+      {
+        "id": 10001202,
+        "code": "RU8905118326",
+        "name_full": "Облигации  \"Байкалозерстрой\"",
+        "cfi": "EZXXAR",
+        "date_to": "2048-05-29",
+        "state_reg_date": "2001-05-11",
+        "state": {
+          "id": 1,
+          "name": "Действующий"
+        },
+        "currency": {
+          "id": 1,
+          "code": "USD",
+          "name_short": "дол.",
+          "name_full": "Доллары"
+        }
+      }
+
+    ]
+  },
+  {
+    "id": 15,
+    "code": "IRNP",
+    "name_full": "Паевое акционерное общество \"Рогокопытныйзавод\"",
+    "name_short": "ПАО \"Рогокопытныйзавод\"",
+    "inn": "12001230897",
+    "company_type": {
+      "id": 17,
+      "name_short": "ПАО",
+      "name_full": "Паевое акционерное общество"
+    },
+    "ogrn": "13923330208080",
+    "egrul_date": "2007-10-12",
+    "country": {
+      "id": 190,
+      "code": "RU",
+      "name": "РОССИЯ"
+    },
+    "fio_head": "Яркеев Семистрат Васильевич",
+    "address": "234901, г. Астрахань, ул. Сталина, д.124",
+    "phone": "(3951) 12-42-92",
+    "e_mail": "rkz@rkz.ru",
+    "www": "http:\/\/www.rkz.ru\/",
+    "is_resident": true,
+    "securities": [
+      {
+        "id": 10001501,
+        "code": "RU00101022712",
+        "name_full": "Акции привилегированные типа А АО \"Рогокопытныйзавод\"",
+        "cfi": "ETXXAR",
+        "date_to": "2019-08-27",
+        "state_reg_date": "2002-02-02",
+        "state": {
+          "id": 2,
+          "name": "Аннулирован"
+        },
+        "currency": {
+          "id": 6,
+          "code": "RUB",
+          "name_short": "руб.",
+          "name_full": "Рубли"
+        }
+      }
+    ]
+  }
+]
