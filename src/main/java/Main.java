@@ -1,6 +1,5 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonDeserializer;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 
@@ -17,7 +16,7 @@ import java.util.stream.Stream;
 
 
 public class Main {
-    static LocalDate dateConvertion(String date){
+    static LocalDate dateConvertion(String date) throws IncorrectDateException {
         LocalDate inputDate = null;
         DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("dd.MM.yy");
@@ -35,14 +34,23 @@ public class Main {
             } else if(date.length() == 8) {
                 inputDate = LocalDate.parse(date,formatter2);
             }
+        }else {
+            throw new IncorrectDateException("The only available formats are: dd.MM.yyyy, dd.MM.yy, dd/MM/yyyy, " +
+                    "dd/MM/yy");
         }
         return inputDate;
     }
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args){
 
         File file = new File("./src/main/resources/organizations");
 
-        JsonReader reader = new JsonReader(new FileReader(file));
+        JsonReader reader = null;
+        try {
+            reader = new JsonReader(new FileReader(file));
+        } catch (FileNotFoundException e) {
+            System.out.println("Give another path.");
+        }
+
         Type collectionType = new TypeToken<Collection<Organization>>() {
         }.getType();
         Gson gson = new GsonBuilder()
@@ -51,7 +59,7 @@ public class Main {
         List<Organization> orgsList = gson.fromJson(reader, collectionType);
 
         //задание 1
-        orgsList.forEach((organization) -> {
+            orgsList.forEach((organization) -> {
             LocalDate date = organization.egrul_date;
             DateTimeFormatter pattern = DateTimeFormatter.ofPattern("dd/MM/yy");
             String dateLine = date.format(pattern);
@@ -59,7 +67,6 @@ public class Main {
         });
 
         //задание 2
-       int count;
         List<Organization.Security> list = orgsList.stream().flatMap(organization -> {
                Organization.Security[] sec = organization.securities;
                List<Organization.Security> filteredSec = Stream.of(sec)
@@ -79,7 +86,15 @@ public class Main {
         String date4 = "01/01/90";
 
         orgsList.stream()
-                .filter(organization -> organization.egrul_date.isAfter(dateConvertion(date1)))
+                .filter(organization -> {
+                    boolean s = false;
+                    try {
+                        s = organization.egrul_date.isAfter(dateConvertion(date1));
+                    } catch (IncorrectDateException e) {
+                        e.printStackTrace();
+                    }
+                    return s;
+                })
                 .forEach(organization -> {
                     System.out.println(organization.name_full + " " + organization.egrul_date);
                 });
